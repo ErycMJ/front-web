@@ -6,9 +6,10 @@ O projeto tem como objetivo desenvolver uma plataforma segura e intuitiva, a qua
 
 ## 🔧 Intalação:
 1. Clone esse repositório com `git clone` ou baixe o código-fonte.
+2. Executar `npm install` em seu terminal.
 
 ## 🚀 Execução:
-Clicar em `npm run dev` - Extensão Live Server de seu VS Code.
+Executar `npm run dev` em seu terminal.
 
 ## 🎯 Público-alvo:
 O público-alvo da plataforma são pessoas que estão em busca de um local seguro onde possam pedir por ajuda financeira por diversos motivos, como vítimas de desastres naturais, incêndios, doenças, dentre vários outros motivos que levam os usuários a buscar uma plataforma para pedir ajuda. Além de usuários interessados em serem beneficiados, há também aqueles usuários que buscam a plataforma para contribuir com pessoas/causas/ONGs.
