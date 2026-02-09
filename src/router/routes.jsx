@@ -1,7 +1,6 @@
 import Footer from "../Components/Footer"
-
-import HeaderDN from "../Components/IsisComponents/header"
-import Telainicial from "../Components/IsisComponents/Telainicial"
+import Header from "../Components/Header"
+import WelcomePage from "../Components/WelcomePage"
 
 import DonationsPage from "../pages/DonationsPage"
 
@@ -20,8 +19,8 @@ const routes = createBrowserRouter([
     path: "/",
     element: (
       <div>
-        <HeaderDN />
-        <Telainicial />
+        <Header />
+        <WelcomePage />
         <Footer />
       </div>
     ),
