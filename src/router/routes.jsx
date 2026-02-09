@@ -1,5 +1,6 @@
+import Footer from "../Components/Footer"
+
 import HeaderDN from "../Components/IsisComponents/header"
-import FooterDN from "../Components/IsisComponents/Footer"
 import Telainicial from "../Components/IsisComponents/Telainicial"
 
 import DonationsPage from "../pages/DonationsPage"
@@ -15,23 +16,20 @@ import LoginPage from "../pages/LoginPage"
 import { createBrowserRouter } from "react-router-dom"
 
 const routes = createBrowserRouter([
-  // Parte da Isis
   {
     path: "/",
     element: (
       <div>
         <HeaderDN />
         <Telainicial />
-        <FooterDN />
+        <Footer />
       </div>
     ),
   },
-  // Parte do Taylor
   {
     path: "/Donations",
     element: <DonationsPage />,
   },
-  // Parte do Eryc
   {
     path: "/DonationsEdit",
     element: (
@@ -41,7 +39,6 @@ const routes = createBrowserRouter([
       </div>
     ),
   },
-  // Parte do Scalco
   {
     path: "/PaginaEditarCadastro",
     element: (
@@ -51,7 +48,6 @@ const routes = createBrowserRouter([
       </div>
     ),
   },
-  // Parte do Miguelindo
   {
     path: "/login",
     element: <LoginPage />,
