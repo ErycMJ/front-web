@@ -1,6 +1,6 @@
 export const welcomeContent = [
     {
-        type: 'title',
+        type: 'strong',
         text: 'SOBRE O NOSSO SITE',
     },
     {

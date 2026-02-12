@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
   margin-top: 10px;
 }
 
-body{
+body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -28,10 +28,6 @@ body{
   margin: 20px 0 30px;
 }
 
-/* span {
-  font-size: 12px;
-} */
-
 .a-miguel {
   color: #333;
   font-size: 14px;
@@ -41,41 +37,42 @@ body{
 
 
 .btn-grad {
-margin: 10px;
-padding: 15px 45px;
-text-align: center;
-text-transform: uppercase;
-transition: 0.5s;
-background-size: 200% auto;
-color: white;            
-border-radius: 10px;
-display: block;
-cursor: pointer;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
 }
 
-#signup{
-  background-image: linear-gradient(to left, #7e4b18 0%, #e26e3d  51%, #7e4b18  100%);
+#signup {
+  background-image: linear-gradient(to left, #7e4b18 0%, #e26e3d 51%, #7e4b18 100%);
   color: #fff;
 }
 
-#signin{
-  background-image: linear-gradient(to left, #e26e3d 0%, #7e4b18  51%, #e26e3d  100%);
+#signin {
+  background-image: linear-gradient(to left, #e26e3d 0%, #7e4b18 51%, #e26e3d 100%);
   color: #fff;
 }
 
 .btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
+  /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
 
-#signIn{
-  background-image: linear-gradient(to right, #fff 0%, #f7f3f3  51%, #fff  100%);
+#signIn {
+  background-image: linear-gradient(to right, #fff 0%, #f7f3f3 51%, #fff 100%);
   color: #6441A5;
 }
 
-#signUp{
-  background-image: linear-gradient(to right, #fff 0%, #f7f3f3  51%, #fff  100%);
+#signUp {
+  background-image: linear-gradient(to right, #fff 0%, #f7f3f3 51%, #fff 100%);
   color: #6441A5;
 }
 
@@ -98,7 +95,7 @@ cursor: pointer;
   width: 100%;
 }
 
-.body-container{
+.body-container {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -109,6 +106,7 @@ cursor: pointer;
   background-repeat: no-repeat;
 
 }
+
 .container-miguel {
   background-color: #ffffff;
   border-radius: 10px;
@@ -152,16 +150,17 @@ cursor: pointer;
 }
 
 @keyframes show {
+
   0%,
   49.99% {
-      opacity: 0;
-      z-index: 1;
+    opacity: 0;
+    z-index: 1;
   }
 
   50%,
   100% {
-      opacity: 1;
-      z-index: 5;
+    opacity: 1;
+    z-index: 5;
   }
 }
 
@@ -233,25 +232,25 @@ cursor: pointer;
 }
 
 .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-top: none;
-    border-radius: 0 0 5px 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
 }
 
 .dropdown-item {
-    padding: 0.5rem;
-    cursor: pointer;
+  padding: 0.5rem;
+  cursor: pointer;
 }
 
 .dropdown-item:hover {
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }

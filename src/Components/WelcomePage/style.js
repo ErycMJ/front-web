@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import backgroundImage from '../../../public/images/background.png';
 
 const BackGroundContainer = styled.div`
-    background-image: url(https://images.pexels.com/photos/697662/pexels-photo-697662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(${backgroundImage});
     background-size: cover;
     background-attachment: fixed;
     height: 100%;

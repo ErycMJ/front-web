@@ -10,10 +10,10 @@ export default function WelcomePage() {
             <ConteudoContainer>
                 {
                     welcomeContent.map((item, index) => {
-                        if (item.type === 'title') {
-                            return <TitleContainer key={index}><strong>{item.text}</strong></TitleContainer>;
+                        if (item.type === 'strong') {
+                            return <TitleContainer key={index}><br /><strong>{item.text}</strong><br /></TitleContainer>;
                         } else {
-                            return <ParagraphContainer key={index}>{item.text}</ParagraphContainer>;
+                            return <ParagraphContainer key={index}><br />{item.text}<br /></ParagraphContainer>;
                         }
                     })
                 }
