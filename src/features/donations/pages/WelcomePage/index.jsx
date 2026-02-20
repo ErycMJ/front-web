@@ -5,8 +5,8 @@ import {
   NavegarContainer,
   BotaoTextoContainer,
 } from "./style";
-import { TitleContainer } from "@/shared/utils/Title/style";
-import { ParagraphContainer } from "@/shared/utils/Paragraph/style";
+import { TitleContainer } from "@/shared/ui/Title/style";
+import { ParagraphContainer } from "@/shared/ui/Paragraph/style";
 import { welcomeContent } from "./aboutSiteData";
 
 export default function WelcomePage() {

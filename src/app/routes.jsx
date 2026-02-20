@@ -1,5 +1,5 @@
-import Footer from "@/shared/utils/Footer";
-import Header from "@/shared/utils/Header";
+import Footer from "@/shared/components/Footer";
+import Header from "@/shared/components/Header";
 import WelcomePage from "@/features/donations/pages/WelcomePage";
 
 import { createBrowserRouter } from "react-router-dom";
